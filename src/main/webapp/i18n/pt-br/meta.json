@@ -1,0 +1,26 @@
+{
+  "gamaJhipsterApp": {
+    "meta": {
+      "home": {
+        "title": "Meta dos Alunos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar nova meta",
+        "createOrEditLabel": "Criar ou editar meta",
+        "notFound": "Nenhuma Meta encontrada"
+      },
+      "created": "Uma nova Meta foi criado com o identificador {{ param }}",
+      "updated": "Uma Meta foi atualizada com o identificador {{ param }}",
+      "deleted": "Uma Meta foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Meta {{ id }}?"
+      },
+      "detail": {
+        "title": "Meta"
+      },
+      "id": "ID",
+      "areaEnem": "Área do Enem",
+      "nota": "Meta de Nota",
+      "aluno": "Aluno"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+enum AreaEnem {
+  LINGUAGENS,
+  HUMANAS,
+  NATUREZA,
+  MATEMATICA
+}
+
+entity Aluno {
+  nome String required
+}
+
+entity Meta {
+  areaEnem AreaEnem required
+  nota Integer required min(0) max(1000)
+}
+
+relationship OneToMany {
+  Aluno{metas} to Meta{aluno}
+}
